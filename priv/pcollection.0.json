@@ -1,0 +1,16 @@
+[
+  {
+    "name": "DfarmadminDfarmretailOpen",
+    "policy": "OR('DfarmadminMSP.member', 'DfarmretailMSP.member')",
+    "requiredPeerCount": 0,
+    "maxPeerCount": 3,
+    "blockToLive": 0
+  },
+  {
+    "name": "DfarmadminPrivate",
+    "policy": "OR('DfarmadminMSP.member')",
+    "requiredPeerCount": 0,
+    "maxPeerCount": 3,
+    "blockToLive": 0
+  }
+]
